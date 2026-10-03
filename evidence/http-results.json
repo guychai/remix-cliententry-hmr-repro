@@ -1,0 +1,80 @@
+[
+  {
+    "stage": "01-plain-cold",
+    "status": 200,
+    "hydrationMarkers": 0,
+    "hasCounterUrl": false,
+    "scripts": [],
+    "countLabel": "Count: 0"
+  },
+  {
+    "stage": "02-wrapped-hot",
+    "status": 200,
+    "hydrationMarkers": 0,
+    "hasCounterUrl": false,
+    "scripts": [],
+    "countLabel": "Count: 0"
+  },
+  {
+    "stage": "03-wrapped-fresh-request",
+    "status": 200,
+    "hydrationMarkers": 0,
+    "hasCounterUrl": false,
+    "scripts": [],
+    "countLabel": "Count: 0"
+  },
+  {
+    "stage": "03a-wrapped-render-control",
+    "status": 200,
+    "hydrationMarkers": 0,
+    "hasCounterUrl": false,
+    "scripts": []
+  },
+  {
+    "stage": "04-wrapped-restarted",
+    "status": 200,
+    "hydrationMarkers": 1,
+    "hasCounterUrl": true,
+    "scripts": [
+      "{\"h\":{\"h85cfdd9d\":{\"exportName\":\"Counter\",\"moduleUrl\":\"/assets/app/actions/public/counter.tsx\",\"props\":{}}}}"
+    ],
+    "countLabel": "Count: 0"
+  },
+  {
+    "stage": "05-plain-hot",
+    "status": 200,
+    "hydrationMarkers": 1,
+    "hasCounterUrl": true,
+    "scripts": [
+      "{\"h\":{\"h14cb90db\":{\"exportName\":\"Counter\",\"moduleUrl\":\"/assets/app/actions/public/counter.tsx\",\"props\":{}}}}"
+    ],
+    "countLabel": "Count: 0"
+  },
+  {
+    "stage": "06-plain-fresh-request",
+    "status": 200,
+    "hydrationMarkers": 1,
+    "hasCounterUrl": true,
+    "scripts": [
+      "{\"h\":{\"h66974efd\":{\"exportName\":\"Counter\",\"moduleUrl\":\"/assets/app/actions/public/counter.tsx\",\"props\":{}}}}"
+    ],
+    "countLabel": "Count: 0"
+  },
+  {
+    "stage": "06a-plain-render-control",
+    "status": 200,
+    "hydrationMarkers": 1,
+    "hasCounterUrl": true,
+    "scripts": [
+      "{\"h\":{\"he8c6b3e8\":{\"exportName\":\"Counter\",\"moduleUrl\":\"/assets/app/actions/public/counter.tsx\",\"props\":{}}}}"
+    ]
+  },
+  {
+    "stage": "07-plain-restarted",
+    "status": 200,
+    "hydrationMarkers": 0,
+    "hasCounterUrl": false,
+    "scripts": [],
+    "countLabel": "Count: 0"
+  }
+]

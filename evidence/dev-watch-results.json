@@ -1,0 +1,28 @@
+[
+  {
+    "stage": "dev-01-plain-cold",
+    "status": 200,
+    "hydrationMarkers": 0,
+    "hasCounterUrl": false,
+    "scripts": [],
+    "countLabel": "Count: 0"
+  },
+  {
+    "stage": "dev-02-wrapped-watch-restart",
+    "status": 200,
+    "hydrationMarkers": 1,
+    "hasCounterUrl": true,
+    "scripts": [
+      "{\"h\":{\"h406a45d6\":{\"exportName\":\"Counter\",\"moduleUrl\":\"/assets/app/actions/public/counter.tsx\",\"props\":{}}}}"
+    ],
+    "countLabel": "Count: 0"
+  },
+  {
+    "stage": "dev-03-plain-watch-restart",
+    "status": 200,
+    "hydrationMarkers": 0,
+    "hasCounterUrl": false,
+    "scripts": [],
+    "countLabel": "Count: 0"
+  }
+]
